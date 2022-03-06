@@ -6,8 +6,8 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@Table(name = "red_team")
-public class RedPlayerEntity {
+@Table(name = "green_team")
+public class GreenPlayerEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
