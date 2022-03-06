@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.dailycodebuffer</groupId>
 	<artifactId>Demo-Project</artifactId>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Demo-Project</name>
 	<description>Demo project for Spring Boot</description>
