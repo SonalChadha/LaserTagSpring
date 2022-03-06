@@ -85,7 +85,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
-					<mainClass>com.dailycodebuffer.DemoProjectApplication</mainClass>
+					<mainClass>com.dailycodebuffer.player.DemoProjectApplication</mainClass>
 				</configuration>
 				<executions>
 					<execution>
