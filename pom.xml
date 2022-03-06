@@ -14,7 +14,7 @@
 	<name>Demo-Project</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>8</java.version>
+		<jdkVersion>1.8</jdkVersion>
 	</properties>
 	<dependencies>
 		<dependency>
