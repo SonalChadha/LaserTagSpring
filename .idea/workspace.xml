@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82170d50-7738-4feb-9bd2-3b3d97f080ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +80,7 @@
       <recent name="C:\Users\sonal.SONALPRIMARY\LaserTagSpring\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sonal.SONALPRIMARY\LaserTagSpring\src\main\resources\static" />
       <recent name="C:\Users\sonal.SONALPRIMARY\LaserTagSpring\src\main\java\com\dailycodebuffer\player" />
       <recent name="C:\Users\sonal.SONALPRIMARY\LaserTagSpring\src\main" />
       <recent name="C:\Users\sonal.SONALPRIMARY\Desktop\Demo-Project\src\main\resources\static" />
