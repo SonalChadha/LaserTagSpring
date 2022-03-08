@@ -1,4 +1,4 @@
-package com.dailycodebuffer.player;
+package com.lasertagproject.player;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

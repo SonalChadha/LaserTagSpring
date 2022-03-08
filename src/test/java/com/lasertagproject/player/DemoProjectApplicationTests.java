@@ -1,4 +1,4 @@
-package com.dailycodebuffer.player;
+package com.lasertagproject.player;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

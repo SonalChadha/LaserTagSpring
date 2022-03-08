@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82170d50-7738-4feb-9bd2-3b3d97f080ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/DemoProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/controller/GreenTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/controller/GreenTeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/controller/RedTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/controller/RedTeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/entity/GreenPlayerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/entity/GreenPlayerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/entity/RedPlayerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/entity/RedPlayerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/repository/GreenTeamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/repository/GreenTeamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/repository/RedTeamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/repository/RedTeamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/services/GreenTeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/GreenTeamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/services/GreenTeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/GreenTeamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/services/RedTeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/RedTeamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/services/RedTeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/RedTeamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dailycodebuffer/player/DemoProjectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lasertagproject/player/DemoProjectApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +95,11 @@
   </component>
   <component name="RunManager">
     <configuration name="DemoProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dailycodebuffer.player.DemoProjectApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.lasertagproject.player.DemoProjectApplication" />
       <module name="LaserTagSpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dailycodebuffer.player.*" />
+          <option name="PATTERN" value="com.lasertagproject.player.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,14 +139,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/DemoProjectApplication.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/services/GreenTeamServiceImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/GreenTeamServiceImpl.java</url>
           <line>29</line>
-          <properties class="com.dailycodebuffer.player.services.GreenTeamServiceImpl" method="getAllEmployees">
+          <properties class="com.lasertagproject.player.services.GreenTeamServiceImpl" method="getAllGreenPlayers">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
