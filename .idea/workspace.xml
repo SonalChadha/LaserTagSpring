@@ -5,21 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82170d50-7738-4feb-9bd2-3b3d97f080ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/DemoProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/controller/GreenTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/controller/GreenTeamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/controller/RedTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/controller/RedTeamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/entity/GreenPlayerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/entity/GreenPlayerEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/entity/RedPlayerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/entity/RedPlayerEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/repository/GreenTeamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/repository/GreenTeamRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/repository/RedTeamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/repository/RedTeamRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/services/GreenTeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/GreenTeamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/services/GreenTeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/GreenTeamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/services/RedTeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/RedTeamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailycodebuffer/player/services/RedTeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/RedTeamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dailycodebuffer/player/DemoProjectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lasertagproject/player/DemoProjectApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/entity/GreenPlayerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/entity/GreenPlayerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/entity/RedPlayerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/entity/RedPlayerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/GreenTeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/GreenTeamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/RedTeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/RedTeamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/css/main.bf751607.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/css/main.bf751607.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.41ea718e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.41ea718e.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.41ea718e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/media/logo.7935d6d57c0e427b4aec.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,15 +147,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/lasertagproject/player/services/GreenTeamServiceImpl.java</url>
-          <line>29</line>
-          <properties class="com.lasertagproject.player.services.GreenTeamServiceImpl" method="getAllGreenPlayers">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

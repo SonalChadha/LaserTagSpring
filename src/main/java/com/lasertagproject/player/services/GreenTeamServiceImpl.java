@@ -23,7 +23,8 @@ public class GreenTeamServiceImpl implements GreenTeamService {
         GreenPlayerEntity greenPlayerEntity = new GreenPlayerEntity();
 
         BeanUtils.copyProperties(greenPlayer, greenPlayerEntity);
-        greenTeamRepository.save(greenPlayerEntity);
+        if(!greenTeamRepository.existsById(greenPlayerEntity.getId()))
+            greenTeamRepository.save(greenPlayerEntity);
         return greenPlayer;
     }
 
@@ -36,9 +37,7 @@ public class GreenTeamServiceImpl implements GreenTeamService {
                 .stream()
                 .map(rp -> new Player(
                         rp.getId(),
-                        rp.getFirstName(),
-                        rp.getLastName(),
-                        rp.getEmailId()))
+                        rp.getCodeValue()))
                 .collect(Collectors.toList());
         return greenPlayers;
     }
@@ -63,9 +62,7 @@ public class GreenTeamServiceImpl implements GreenTeamService {
     public Player updateGreenPlayer(Long id, Player greenPlayer) {
         GreenPlayerEntity greenPlayerEntity
                 = greenTeamRepository.findById(id).get();
-        greenPlayerEntity.setEmailId(greenPlayer.getEmailId());
-        greenPlayerEntity.setFirstName(greenPlayer.getFirstName());
-        greenPlayerEntity.setLastName(greenPlayer.getLastName());
+        greenPlayerEntity.setCodeValue(greenPlayer.getCodeValue());
 
         greenTeamRepository.save(greenPlayerEntity);
         return greenPlayer;

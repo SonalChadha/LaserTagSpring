@@ -23,7 +23,8 @@ public class RedTeamServiceImpl implements RedTeamService {
         RedPlayerEntity redPlayerEntity = new RedPlayerEntity();
 
         BeanUtils.copyProperties(redPlayer, redPlayerEntity);
-        redTeamRepository.save(redPlayerEntity);
+        if(!redTeamRepository.existsById(redPlayerEntity.getId()))
+            redTeamRepository.save(redPlayerEntity);
         return redPlayer;
     }
 
@@ -36,9 +37,7 @@ public class RedTeamServiceImpl implements RedTeamService {
                 .stream()
                 .map(rp -> new Player(
                         rp.getId(),
-                        rp.getFirstName(),
-                        rp.getLastName(),
-                        rp.getEmailId()))
+                        rp.getCodeValue()))
                 .collect(Collectors.toList());
         return redPlayers;
     }
@@ -63,9 +62,7 @@ public class RedTeamServiceImpl implements RedTeamService {
     public Player updateRedPlayer(Long id, Player redPlayer) {
         RedPlayerEntity redPlayerEntity
                 = redTeamRepository.findById(id).get();
-        redPlayerEntity.setEmailId(redPlayer.getEmailId());
-        redPlayerEntity.setFirstName(redPlayer.getFirstName());
-        redPlayerEntity.setLastName(redPlayer.getLastName());
+        redPlayerEntity.setCodeValue(redPlayer.getCodeValue());
 
         redTeamRepository.save(redPlayerEntity);
         return redPlayer;

@@ -9,9 +9,6 @@ import javax.persistence.*;
 @Table(name = "green_team")
 public class GreenPlayerEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private String firstName;
-    private String lastName;
-    private String emailId;
+    private String codeValue;
 }
