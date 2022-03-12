@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82170d50-7738-4feb-9bd2-3b3d97f080ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/main.9295a4c4.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/css/main.46aaa8d1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/css/main.46aaa8d1.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.0a9ace82.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.0a9ace82.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.0a9ace82.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/media/logo.7935d6d57c0e427b4aec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/css/main.46aaa8d1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/css/main.46aaa8d1.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.e800c247.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/main.9295a4c4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.e800c247.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/main.9295a4c4.js.LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.e800c247.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +55,7 @@
       <MavenGeneralSettings>
         <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
+        <option name="usePluginRegistry" value="true" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -84,7 +80,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -92,6 +88,7 @@
       <recent name="C:\Users\sonal.SONALPRIMARY\LaserTagSpring\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gary\Documents\GitHub\LaserTagSpring\src\main\resources\static" />
       <recent name="C:\Users\sonal.SONALPRIMARY\LaserTagSpring\src\main\resources\static" />
       <recent name="C:\Users\sonal.SONALPRIMARY\LaserTagSpring\src\main\java\com\dailycodebuffer\player" />
       <recent name="C:\Users\sonal.SONALPRIMARY\LaserTagSpring\src\main" />
