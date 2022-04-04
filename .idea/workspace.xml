@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82170d50-7738-4feb-9bd2-3b3d97f080ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/main.9295a4c4.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/css/main.46aaa8d1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/css/main.46aaa8d1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.e800c247.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/main.9295a4c4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.e800c247.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/main.9295a4c4.js.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/main.e800c247.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/controller/RedTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/controller/RedTeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,6 +90,9 @@
       <recent name="C:\Users\sonal.SONALPRIMARY\LaserTagSpring\src\main" />
       <recent name="C:\Users\sonal.SONALPRIMARY\Desktop\Demo-Project\src\main\resources\static" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lasertagproject.player" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="DemoProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -101,7 +100,7 @@
       <module name="LaserTagSpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lasertagproject.player.*" />
+          <option name="PATTERN" value="com.lasertagproject.player.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,17 +141,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java</url>
-          <line>6</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java</url>
-          <line>9</line>
+          <line>17</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java</url>
-          <line>8</line>
+          <line>16</line>
           <properties class="com.lasertagproject.player.DemoProjectApplication" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
