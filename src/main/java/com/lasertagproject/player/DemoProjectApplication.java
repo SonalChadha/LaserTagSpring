@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DemoProjectApplication implements ApplicationRunner {
 	@Autowired
-	private Message messg;
+	Message messg;
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(DemoProjectApplication.class, args);
 	}
@@ -27,13 +27,13 @@ public class DemoProjectApplication implements ApplicationRunner {
 		DatagramPacket DpReceive = null;
 		while (true)
 		{
-			//messg.setMessage("");
+
 			// Step 2 : create a DatgramPacket to receive the data.
 			DpReceive = new DatagramPacket(receive, receive.length);
-
 			// Step 3 : receive the data in byte buffer.
 			ds.receive(DpReceive);
 
+			//System.out.println(messg.getMessage());
 			System.out.println("Client:-" + data(receive));
 
 			// Exit the server if the client sends "exit"
@@ -43,6 +43,7 @@ public class DemoProjectApplication implements ApplicationRunner {
 				break;
 			}
 			messg.setMessage("" + data(receive));
+			System.out.println("messg AFTER receiving from client: " + messg.getMessage());
 			// Clear the buffer after every message.
 			receive = new byte[65535];
 		}

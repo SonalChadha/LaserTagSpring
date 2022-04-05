@@ -12,20 +12,12 @@ public class ChatController {
 
     @Autowired
     Message messg;
-  //  @Autowired
-//    private SimpMessagingTemplate simpMessagingTemplate;
 
     @MessageMapping("/message")
     @SendTo("/chatroom/public")
     public Message receiveMessage(@Payload Message message){
-       // message = "holaaaaa Sfksdjf";
-        return messg;
+        message.setMessage(messg.getMessage());
+        messg.setMessage("null");
+        return message;
     }
-
-//    @MessageMapping("/private-message")
-//    public Message recMessage(@Payload Message message){
-//        simpMessagingTemplate.convertAndSendToUser(message.getReceiverName(),"/private",message);
-//        System.out.println(message.toString());
-//        return message;
-//    }
 }
