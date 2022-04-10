@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82170d50-7738-4feb-9bd2-3b3d97f080ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/model/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/controller/PlayerWhoHitPlayerMessgController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lasertagproject/player/WebSocketConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +76,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -138,18 +145,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/lasertagproject/player/DemoProjectApplication.java</url>
-          <line>16</line>
-          <properties class="com.lasertagproject.player.DemoProjectApplication">
+          <line>17</line>
+          <properties class="com.lasertagproject.player.DemoProjectApplication" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
