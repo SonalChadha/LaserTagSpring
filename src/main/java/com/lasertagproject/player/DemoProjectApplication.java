@@ -21,8 +21,8 @@ public class DemoProjectApplication implements ApplicationRunner {
 
 	@Override
 	public void run(ApplicationArguments args) throws IOException {
-		// Step 1 : Create a socket to listen at port 7500
-		DatagramSocket ds = new DatagramSocket(7500);
+		// Step 1 : Create a socket to listen at port 7501
+		DatagramSocket ds = new DatagramSocket(7501);
 		byte[] receive = new byte[65535];
 
 		DatagramPacket DpReceive = null;
