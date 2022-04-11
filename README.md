@@ -4,7 +4,7 @@ need to create an Oracle account if you don't have one already to install this J
 installing JDK and follow all steps.
 After this installation is complete, you should be able to get the versions of Java after typing 
 'java -version' in your command prompt (if this is not the case,
-configure environment path variables). Now, add a new variable with name 'JAVA_HOME' to your environment user variables and set its value to the path of the installed jdk folder in Java folder (e.g. C:\Program Files\Java\jdk1.8.0_321 for a Windows user). If this variable 'JAVA_HOME' already exists in your environment user variables, simply edit it to contain the proper path of the jdk folder.
+configure environment path variables). Now, add a new variable with name 'JAVA_HOME' to your environment user variables and set its value to the path of the installed jdk folder in Java folder (e.g. C:\Program Files\Java\jdk1.8.0_321 for a Windows user). If this variable 'JAVA_HOME' already exists in your environment user variables, simply edit it to contain the proper path of the jdk folder. Type 'echo %JAVA_HOME%' (for Windows user) or 'echo $JAVA_HOME' (for Mac user) to confirm the path.
 
 Now, install the appropriate Apache Maven for your machine from https://maven.apache.org/download.cgi. 
 After this installation is complete, extract the zip or tar.gz archive and set the path of the bin folder of this extracted folder in environment path variables.
