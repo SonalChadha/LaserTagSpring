@@ -34,17 +34,9 @@ public class DemoProjectApplication implements ApplicationRunner {
 			// Step 3 : receive the data in byte buffer.
 			ds.receive(DpReceive);
 
-			//System.out.println(messg.getMessage());
 			System.out.println("Client:-" + data(receive));
 
-			// Exit the server if the client sends "exit"
-			if (data(receive).toString().equals("exit"))
-			{
-				System.out.println("Client sent bye.....EXITING");
-				break;
-			}
 			messg.setMessage("" + data(receive));
-			System.out.println("messg AFTER receiving from client: " + messg.getMessage());
 			// Clear the buffer after every message.
 			receive = new byte[65535];
 		}
