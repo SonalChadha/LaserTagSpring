@@ -1,6 +1,7 @@
 To run this project, make sure to have it downloaded and saved in a project directory on your local sytem. Then, 
-install JDK 8 from https://www.oracle.com/java/technologies/downloads/ (scroll down to find the appropriate installer). Note that you will need to create an Oracle
-account if you don't have one already to install this JDK on your system. Once the Java JDK 8 download is complete, run the exe for installing JDK and follow all steps.
+install JDK 8 from https://www.oracle.com/java/technologies/downloads/ (scroll down in the link to find the appropriate installer). Note that you will 
+need to create an Oracle account if you don't have one already to install this JDK on your system. Once the Java JDK 8 download is complete, run the exe for
+installing JDK and follow all steps.
 After this installation is complete, you should be able to get the versions of Java after typing 'java -version' in your command prompt (if this is not the case,
 configure environment path variables). Now, add a new variable with name 'JAVA_HOME' to your environment user variables and set its value to the path of the installed jdk folder in Java folder (e.g. C:\Program Files\Java\jdk1.8.0_321 for a Windows user). If this variable 'JAVA_HOME' already exists in your environment user variables, simply edit it to contain the proper path of the jdk folder.
 
