@@ -8,6 +8,6 @@ configure environment path variables). Now, add a new variable with name 'JAVA_H
 
 Now, install the appropriate Apache Maven for your machine from https://maven.apache.org/download.cgi. 
 After this installation is complete, extract the zip or tar.gz archive and set the path of the bin folder of this extracted folder 
-(e.g. C:\Users\{user}\Downloads\apache-maven-3.8.5\bin) in environment path variables.
+(e.g. C:\Users\{user}\Downloads\apache-maven-3.8.5\bin for Windows user) in environment path variables.
 Check that path has been set correctly by typing 'mvn -v' in command prompt, which should return the version of Apache Maven installed (e.g. 3.8.5). 
 Open up command prompt again and navigate to the project directory. Type 'mvn spring-boot run' to run the project. 
