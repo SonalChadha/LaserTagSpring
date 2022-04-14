@@ -6,8 +6,8 @@ After this installation is complete, you should be able to get the versions of J
 'java -version' in your command prompt (if this is not the case,
 configure environment path variables). Now, add a new variable with name 'JAVA_HOME' to your environment user variables and set its value to the path of the installed jdk folder in Java folder (e.g. C:\Program Files\Java\jdk1.8.0_321 for a Windows user). If this variable 'JAVA_HOME' already exists in your environment user variables, simply edit it to contain the proper path of the jdk folder. Type 'echo %JAVA_HOME%' (for Windows user) or 'echo $JAVA_HOME' (for Mac user) to confirm the path.
 
-Now, install the appropriate Apache Maven for your machine from https://maven.apache.org/download.cgi. 
-After this installation is complete, extract the zip or tar.gz archive and set the path of the bin folder of this extracted folder 
+Now, install the appropriate Apache Maven binary zip archive for your machine from https://maven.apache.org/download.cgi. 
+After this installation is complete, extract the zip archive and set the path of the bin folder of this extracted folder 
 (e.g. C:\Users\\{user}\Downloads\apache-maven-3.8.5\bin for Windows user) in environment path variables.
 Check that path has been set correctly by typing 'mvn -v' in command prompt, which should return the version of Apache Maven installed (e.g. 3.8.5). 
 Open up command prompt again and navigate to the project directory. Type 'mvn spring-boot run' to run the project. 
