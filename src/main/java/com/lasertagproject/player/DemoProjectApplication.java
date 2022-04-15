@@ -12,34 +12,34 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoProjectApplication implements ApplicationRunner {
-	@Autowired
-	Message messg;
+public class DemoProjectApplication {
+//	@Autowired
+//	Message messg;
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(DemoProjectApplication.class, args);
 	}
 
-	@Override
-	public void run(ApplicationArguments args) throws IOException {
-		// Step 1 : Create a socket to listen at port 7501
-		DatagramSocket ds = new DatagramSocket(7501);
-		byte[] receive = new byte[65535];
-
-		DatagramPacket DpReceive = null;
-		while (true)
-		{
-
-			// Step 2 : create a DatgramPacket to receive the data.
-			DpReceive = new DatagramPacket(receive, receive.length);
-			// Step 3 : receive the data in byte buffer.
-			ds.receive(DpReceive);
-
-			System.out.println("Client:-" + data(receive));
-
-			messg.setMessage("" + data(receive));
-			// Clear the buffer after every message.
-			receive = new byte[65535];
-		}
+//	@Override
+//	public void run(ApplicationArguments args) throws IOException {
+//		// Step 1 : Create a socket to listen at port 7501
+//		DatagramSocket ds = new DatagramSocket(7501);
+//		byte[] receive = new byte[65535];
+//
+//		DatagramPacket DpReceive = null;
+//		while (true)
+//		{
+//
+//			// Step 2 : create a DatgramPacket to receive the data.
+//			DpReceive = new DatagramPacket(receive, receive.length);
+//			// Step 3 : receive the data in byte buffer.
+//			ds.receive(DpReceive);
+//
+//			System.out.println("Client:-" + data(receive));
+//
+//			messg.setMessage("" + data(receive));
+//			// Clear the buffer after every message.
+//			receive = new byte[65535];
+//		}
 	}
 	 //A utility method to convert the byte array
 	// data into a string representation.
